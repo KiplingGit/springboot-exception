@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @ControllerAdvice(annotations=TestException.class) 只捕捉带有@TestException注解的类
  * 
  * 
- * 以下全局处理限制处理包含注解@TestException的组件
+ * 以下全局处理,限制处理包含注解@TestException的组件
  * 
  * 注意如果异常被此Handler捕捉了，就不会在经过HellErrorController的处理,
  * 
