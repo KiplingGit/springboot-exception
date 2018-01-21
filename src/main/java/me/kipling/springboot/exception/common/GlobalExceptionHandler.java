@@ -26,7 +26,7 @@ public class GlobalExceptionHandler {
 		System.out.println("我报错了：" + exception.getSuppressed());
 		System.out.println("我报错了：" + exception.getMessage());
 		System.out.println("我报错了：" + exception.getStackTrace());
-		return "服务器异常，请联系管理员！";
+		//return "服务器异常，请联系管理员！";
+		return "test";//注意此时的如果返回的视图如果找不到，就交给ErrorController处理
 	}
-
 }
